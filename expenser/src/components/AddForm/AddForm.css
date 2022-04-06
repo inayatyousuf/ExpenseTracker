@@ -1,0 +1,56 @@
+.add_form {
+    background-color: #71ccca;
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+    box-shadow: 20px 20px 60px #60adac, -20px -20px 60px #82ebe8;
+    min-height: 65vh;
+
+}
+.form_item {
+    margin: 0.5rem 0rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+
+}
+
+.form_item label {
+    margin-right: 1rem;
+    background: grey;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem 0 0 1rem;
+}
+.form_item input {
+    border: none;
+    outline: none;
+    padding: 0.5rem 0.2rem;
+    width: 50%;
+    border-radius: 1rem;
+}
+.category{
+    color: white;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 7rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+.category-item {
+    border-bottom: 1px solid cyan;
+    padding: 0.2rem 1rem;
+    margin-top: 0.4rem;
+
+}
+
+.form-add-btn {
+   width: fit-content;
+    position: fixed;
+    top: 80%;
+    left: 70%;
+    transform: translate(-70%,-80%);
+}
+.form-add-btn button {
+    padding: 0.4rem 2rem;
+}

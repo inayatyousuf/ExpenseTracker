@@ -1,0 +1,15 @@
+.expenseList {
+    margin-top: 1rem;
+    z-index: 100;
+}
+.empty-expense-message {
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+    top: 2em;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 4rem;
+    border-radius: 2rem;
+}

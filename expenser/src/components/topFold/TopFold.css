@@ -1,0 +1,31 @@
+.home_topfold {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchbar input {
+    padding: 0.5rem 0.5rem;
+    width: 15rem;
+    border-radius: 1rem;
+    outline:  none;
+    border: none;
+}
+
+.add_button button {
+    padding: 0.2rem 2rem;
+    font-size: 1rem;
+
+}
+
+.formPage_topfold {
+    display: flex;
+    justify-content: space-between;
+}
+.backbtn {
+    padding: 0.2rem 1.5rem;
+    font-size: 1rem;
+}
+.cancelbtn {
+    padding: 0.2rem 1.5rem;
+    font-size: 1rem;
+}
